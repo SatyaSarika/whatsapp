@@ -4,7 +4,7 @@ from django.shortcuts import render,redirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 from messenger.models import *
 from messenger.forms import *
-import ipdb
+#import ipdb
 class message_view(LoginRequiredMixin,ListView):
     # login_url = '/login/'
     queryset = User.objects.all()
