@@ -25,7 +25,7 @@ SECRET_KEY = ')tkgz5e62^0b474_36+lp0@xbaym_s&(oyojsets!#uoy=lai_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["http://whatsupp.ap-south-1.elasticbeanstalk.com","*"]
 
 
 # Application definition
